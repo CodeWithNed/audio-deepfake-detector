@@ -45,14 +45,12 @@ checkpoints/
 *.pkl
 
 # Data files
-*.wav
 *.mp3
 *.flac
 *.ogg
 real_audio/
 fake_audio/
 dataset/
-data/
 
 # Logs
 *.log
