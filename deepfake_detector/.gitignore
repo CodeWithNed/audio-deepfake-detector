@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Backend
+backend/checkpoints/*.pt
+backend/checkpoints/*.pth
+backend/data/
+backend/uploads/
+*.pkl
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Docker
+*.pid
